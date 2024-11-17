@@ -22,20 +22,20 @@ body:
         请确认自己完成了要求之后再进行勾选
       options:
         - label: |
-        I understand that the Issue is used to provide feedback and solve problems, not to comment on the comment area, and will provide as much information as possible to help solve the problem
-        我理解 Issue 是用于反馈和解决问题的，而非吐槽评论区，将尽可能提供更多信息帮助问题解决
+          I understand that the Issue is used to provide feedback and solve problems, not to comment on the comment area, and will provide as much information as possible to help solve the problem
+          我理解 Issue 是用于反馈和解决问题的，而非吐槽评论区，将尽可能提供更多信息帮助问题解决
           required: true
         - label: |
-        I wrote a short and clear title so that developers can quickly determine the general problem when browsing the Issue list, rather than "a suggestion", "stuck", etc.
-        我填写了简短且清晰明确的标题，以便开发者在翻阅 Issue 列表时能快速确定大致问题。而不是“一个建议”、“卡住了”等
+          I wrote a short and clear title so that developers can quickly determine the general problem when browsing the Issue list, rather than "a suggestion", "stuck", etc.
+          我填写了简短且清晰明确的标题，以便开发者在翻阅 Issue 列表时能快速确定大致问题。而不是“一个建议”、“卡住了”等
           required: true
         - label: |
-        I have checked the latest version of the current update, and have viewed the update content that has not been released in the version so far and in the Pull Requests, and it has not been mentioned that the bug has been fixed
-        我使用的是当前更新版本的最新版，且已查看版本发布至今和 Pull Requests 中尚未发布的更新内容，并未提及该 Bug 已被修复的情况
+          I have checked the latest version of the current update, and have viewed the update content that has not been released in the version so far and in the Pull Requests, and it has not been mentioned that the bug has been fixed
+          我使用的是当前更新版本的最新版，且已查看版本发布至今和 Pull Requests 中尚未发布的更新内容，并未提及该 Bug 已被修复的情况
           required: true
         - label: |
-        I have checked the pinned issue (announcement), active issue (Open Issue), and closed issue (Closed Issue), and confirmed that my problem has not been mentioned
-        我已检查了置顶议题（Pinned Issue）（公告）、活跃议题（Open Issue）、已关闭议题（Closed Issue），确认我的问题未被提及
+          I have checked the pinned issue (announcement), active issue (Open Issue), and closed issue (Closed Issue), and confirmed that my problem has not been mentioned
+          我已检查了置顶议题（Pinned Issue）（公告）、活跃议题（Open Issue）、已关闭议题（Closed Issue），确认我的问题未被提及
           required: true
   - type: markdown
     attributes:
