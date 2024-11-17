@@ -69,8 +69,14 @@ body:
             I using a proxy/VPN
             我使用了代理/VPN
         - label: |
-            I am in a network-restricted environment. Common regional restrictions: Mainland China, Russia; Common unit restrictions: schools, companies, public places, etc. Even if you have used a proxy/VPN, please check this option.
-            我位于网络受限的环境。常见的地区限制：中国大陆、俄罗斯；常见的单位限制：学校、公司、公共场所等。即使已经使用了代理/VPN，也请勾选此项。
+            I am in a network-restricted environment. Even if you have used a proxy/VPN, please check this option.
+            我位于网络受限的环境。即使已经使用了代理/VPN，也请勾选此项。
+  - type: input
+    attributes:
+      label: Country/Area/国家/地区
+      placeholder: |
+        If you are in a network-restricted environment, please fill in the country or region where you are located.
+        如果你位于网络受限的环境，请填写你所在的国家或地区。
   - type: markdown
     attributes:
       value: |
