@@ -37,8 +37,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        These are some device information questions used to determine your operating environment.
-        这是一些设备信息问题，用于确定您的运行环境。
+        ## These are some device information questions used to determine your operating environment.
+        ## 这是一些设备信息问题，用于确定您的运行环境。
   - type: input
     attributes:
       label: OS version/操作系统版本
@@ -73,8 +73,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        These are necessary questions. Please describe in detail what happened and the expected behavior.
-        这些是必要的问题，请详细的描述问题发生的情况和预期的行为。
+        ## These are necessary questions. Please describe in detail what happened and the expected behavior.
+        ## 这些是必要的问题，请详细的描述问题发生的情况和预期的行为。
   - type: textarea
     attributes:
       label: Steps to reproduce/重现步骤
