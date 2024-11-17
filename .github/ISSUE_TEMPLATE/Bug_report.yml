@@ -15,8 +15,9 @@ body:
   - type: checkboxes
     id: checks
     attributes:
-      label: ## Before Open ISSUE 在提问之前...
+      label: Before Open ISSUE 在提问之前...
       description: |
+        # Check list/检查清单
         Please confirm that you have completed the requirements before checking. I understand that if the requirements are not met, the Issue may be closed and locked unconditionally.
         请确认自己完成了要求之后再进行勾选。我理解如果不满足要求，Issue 可能会被无条件关闭并锁定。
       options:
