@@ -36,6 +36,9 @@ body:
             I have checked the pinned issue (announcement), active issue (Open Issue), and closed issue (Closed Issue), and confirmed that my problem has not been mentioned
             我已检查了置顶议题（Pinned Issue）（公告）、活跃议题（Open Issue）、已关闭议题（Closed Issue），确认我的问题未被提及
           required: true
+        - label: |
+            I am using Alpha/Beta/Pre-release version
+            我正在使用内测版本/公测版本/预发布版本
   - type: markdown
     attributes:
       value: |
@@ -71,12 +74,6 @@ body:
         - label: |
             I am in a network-restricted environment. Even if you have used a proxy/VPN, please check this option.
             我位于网络受限的环境。即使已经使用了代理/VPN，也请勾选此项。
-  - type: input
-    attributes:
-      label: Country/Area/国家/地区
-      placeholder: |
-        If you are in a network-restricted environment, please fill in the country or region where you are located.
-        如果你位于网络受限的环境，请填写你所在的国家或地区。
   - type: markdown
     attributes:
       value: |
