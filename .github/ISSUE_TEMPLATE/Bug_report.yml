@@ -10,6 +10,8 @@ body:
         感谢汇报问题！
         All texts here are same meaning in English and Chinese. If you can't understand one of the languages, it's okay.
         这里所有的文本都是英文和中文对照。如果你其中一种语言不懂，没关系。
+        Fields with * are required, please fill in completely. If you don't understand or it doesn't apply, you can leave it blank.
+        带有 * 的为必填项，请务必填写完整。其他项目如果不了解或不适用，可以留空。
   - type: checkboxes
     id: checks
     attributes:
@@ -37,8 +39,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## These are some device information questions used to determine your operating environment.
-        ## 这是一些设备信息问题，用于确定您的运行环境。
+        ## These are some device information questions used to determine your operating environment. 这是一些设备信息问题，用于确定您的运行环境。
   - type: input
     attributes:
       label: OS version/操作系统版本
@@ -73,8 +74,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## These are necessary questions. Please describe in detail what happened and the expected behavior.
-        ## 这些是必要的问题，请详细的描述问题发生的情况和预期的行为。
+        ## These are necessary questions. Please fill in the information as much as possible. 这些是必要问题，请尽可能填写信息。
   - type: textarea
     attributes:
       label: Steps to reproduce/重现步骤
