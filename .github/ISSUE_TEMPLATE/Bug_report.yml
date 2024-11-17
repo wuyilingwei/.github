@@ -1,0 +1,86 @@
+name: Bug report/反馈 Bug
+description: Report errors or unexpected behavior./反馈错误或异常行为。
+labels: [bug]
+title: "[Bug] (short description/在这里简短描述你发现的问题)"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting issues!
+        感谢汇报问题！
+  - type: markdown
+    attributes:
+      value: |
+        All texts here are same meaning in English and Chinese. If you can't understand one of the languages, it's okay. For other languages, it is highly recommended to use a translator. I have used the most widely covered and most used languages.
+        这里所有的文本都是英文和中文对照。如果你其中一种语言不懂，没关系。对于其他语言，强烈建议使用翻译器。我已经使用了覆盖面最广和使用最多的语言。
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before Open ISSUE 在提问之前...
+      description: |
+        Please confirm that you have completed the requirements before checking
+        请确认自己完成了要求之后再进行勾选
+      options:
+        - label: |
+        I understand that the Issue is used to provide feedback and solve problems, not to comment on the comment area, and will provide as much information as possible to help solve the problem
+        我理解 Issue 是用于反馈和解决问题的，而非吐槽评论区，将尽可能提供更多信息帮助问题解决
+          required: true
+        - label: |
+        I wrote a short and clear title so that developers can quickly determine the general problem when browsing the Issue list, rather than "a suggestion", "stuck", etc.
+        我填写了简短且清晰明确的标题，以便开发者在翻阅 Issue 列表时能快速确定大致问题。而不是“一个建议”、“卡住了”等
+          required: true
+        - label: |
+        I have checked the latest version of the current update, and have viewed the update content that has not been released in the version so far and in the Pull Requests, and it has not been mentioned that the bug has been fixed
+        我使用的是当前更新版本的最新版，且已查看版本发布至今和 Pull Requests 中尚未发布的更新内容，并未提及该 Bug 已被修复的情况
+          required: true
+        - label: |
+        I have checked the pinned issue (announcement), active issue (Open Issue), and closed issue (Closed Issue), and confirmed that my problem has not been mentioned
+        我已检查了置顶议题（Pinned Issue）（公告）、活跃议题（Open Issue）、已关闭议题（Closed Issue），确认我的问题未被提及
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        These are some device information questions used to determine your operating environment.
+        这是一些设备信息问题，用于确定您的运行环境。
+  - type: input
+    attributes:
+      label: OS version/操作系统版本
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Software version/软件版本
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Environment/环境
+      placeholder:
+  - type: markdown
+    attributes:
+      value: |
+        These are necessary questions. Please describe in detail what happened and the expected behavior.
+        这些是必要的问题，请详细的描述问题发生的情况和预期的行为。
+  - type: textarea
+    attributes:
+      label: Expected behaviour/预期行为
+      placeholder: Tell us what should happen/正常情况下应该发生什么
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behaviour/实际行为
+      placeholder: Tell us what happens instead/实际上发生了什么
+    validations:
+      required: true
+  - type: textarea
+    id: others
+    attributes:
+      label: Any More还有别的吗?
+      description: |
+        Please provide any additional information that may help us understand the problem you are experiencing.
+        任何能让我们对你所遇到的问题有更多了解的东西
+    validations:
+      required: false
