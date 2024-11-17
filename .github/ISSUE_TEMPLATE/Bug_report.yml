@@ -65,6 +65,14 @@ body:
         这些是必要的问题，请详细的描述问题发生的情况和预期的行为。
   - type: textarea
     attributes:
+      label: Steps to reproduce/重现步骤
+      placeholder: |
+        Describe the steps to reproduce the bug, including any necessary setup to reproduce the issue. Please provide an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
+        描述重现 Bug 的步骤，包括任何必要的设置以重现问题。请提供明确的重现此 Bug 的步骤。如果相关，请包含重现代码。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       label: Expected behaviour/预期行为
       placeholder: Tell us what should happen/正常情况下应该发生什么
     validations:
@@ -76,11 +84,23 @@ body:
     validations:
       required: true
   - type: textarea
+    attributes:
+      label: Error message/错误信息
+      placeholder: If applicable, paste the full error message/如果有，请粘贴完整的错误信息
+  - type: textarea
+    attributes:
+      label: Screenshots/截图
+      description: |
+        If applicable, add screenshots to help explain your problem/如果有，请添加截图以帮助解释你的问题
+  - type: textarea
+    attributes:
+      label: Logs/日志
+      description: |
+        If applicable, add logs to help explain your problem/如果有，请添加日志以帮助解释你的问题
+  - type: textarea
     id: others
     attributes:
       label: Any More还有别的吗?
       description: |
         Please provide any additional information that may help us understand the problem you are experiencing.
         任何能让我们对你所遇到的问题有更多了解的东西
-    validations:
-      required: false
