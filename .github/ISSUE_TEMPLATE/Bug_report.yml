@@ -15,8 +15,8 @@ body:
     attributes:
       label: Before Open ISSUE 在提问之前...
       description: |
-        Please confirm that you have completed the requirements before checking
-        请确认自己完成了要求之后再进行勾选
+        Please confirm that you have completed the requirements before checking. I understand that if the requirements are not met, the Issue may be closed and locked unconditionally.
+        请确认自己完成了要求之后再进行勾选。我理解如果不满足要求，Issue 可能会被无条件关闭并锁定。
       options:
         - label: |
             I understand that the Issue is used to provide feedback and solve problems, not to comment on the comment area, and will provide as much information as possible to help solve the problem
@@ -55,6 +55,21 @@ body:
     attributes:
       label: Environment/环境
       placeholder:
+  - type: checkboxes
+    id: Internet
+    attributes:
+      label: Internet/网络
+      options:
+        - label: |
+            I have checked the network connection and confirmed that the network is working
+            我已检查了网络连接，确认网络正常
+          required: true
+        - label: |
+            I using a proxy/VPN
+            我使用了代理/VPN
+        - label: |
+            I am in a network-restricted environment. Common regional restrictions: Mainland China, Russia; Common unit restrictions: schools, companies, public places, etc. Even if you have used a proxy/VPN, please check this option.
+            我位于网络受限的环境。常见的地区限制：中国大陆、俄罗斯；常见的单位限制：学校、公司、公共场所等。即使已经使用了代理/VPN，也请勾选此项。
   - type: markdown
     attributes:
       value: |
