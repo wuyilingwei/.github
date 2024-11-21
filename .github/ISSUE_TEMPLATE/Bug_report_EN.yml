@@ -28,7 +28,8 @@ body:
             I am using Alpha/Beta/Pre-release version
   - type: markdown
     attributes:
-      value: ## These are some device information questions used to determine your operating environment.
+      value: |
+        ## These are some device information questions used to determine your operating environment.
   - type: input
     attributes:
       label: OS version
@@ -60,7 +61,8 @@ body:
       placeholder:
   - type: markdown
     attributes:
-      value: ## These are necessary questions. Please fill in the information as much as possible.
+      value: |
+        ## These are necessary questions. Please fill in the information as much as possible.
   - type: textarea
     attributes:
       label: Steps to reproduce
