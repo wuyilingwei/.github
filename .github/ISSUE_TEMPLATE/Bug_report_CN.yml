@@ -25,10 +25,6 @@ body:
         - label: 我已检查了置顶议题（Pinned Issue）（公告）、活跃议题（Open Issue）、已关闭议题（Closed Issue），确认我的问题未被提及
           required: true
         - label: 我正在使用内测版本/公测版本/预发布版本
-  - type: input
-    attributes:
-      label: 任何其他环境信息
-      placeholder:
   - type: markdown
     attributes:
       value: |
@@ -58,6 +54,10 @@ body:
           required: true
         - label: 我使用了代理/VPN
         - label: 我位于网络受限的环境。即使已经使用了代理/VPN，也请勾选此项。中国大陆请始终勾选此项。
+  - type: input
+    attributes:
+      label: 任何其他环境信息
+      placeholder:
   - type: markdown
     attributes:
       value: |
