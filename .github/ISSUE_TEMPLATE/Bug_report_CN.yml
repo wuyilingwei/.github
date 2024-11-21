@@ -29,7 +29,6 @@ body:
     attributes:
       label: 任何其他环境信息
       placeholder:
-      value: ""
   - type: markdown
     attributes:
       value: ## 这是一些设备信息问题，用于确定您的运行环境。
@@ -49,7 +48,6 @@ body:
     attributes:
       label: 环境
       placeholder:
-      value: ""
   - type: checkboxes
     id: Internet
     attributes:
@@ -97,4 +95,3 @@ body:
     attributes:
       label: 还有别的吗?
       placeholder: 任何能让我们对你所遇到的问题有更多了解的东西
-      value: ""
