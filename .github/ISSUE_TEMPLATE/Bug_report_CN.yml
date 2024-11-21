@@ -31,7 +31,8 @@ body:
       placeholder:
   - type: markdown
     attributes:
-      value: ## 这是一些设备信息问题，用于确定您的运行环境。
+      value: |
+        ## 这是一些设备信息问题，用于确定您的运行环境。
   - type: input
     attributes:
       label: 操作系统版本
@@ -59,7 +60,8 @@ body:
         - label: 我位于网络受限的环境。即使已经使用了代理/VPN，也请勾选此项。中国大陆请始终勾选此项。
   - type: markdown
     attributes:
-      value: ## 这些是必要问题，请尽可能填写信息。
+      value: |
+        ## 这些是必要问题，请尽可能填写信息。
   - type: textarea
     attributes:
       label: 重现步骤
