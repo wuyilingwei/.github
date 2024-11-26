@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
+  - name: Ask GitHub Community Support
     url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: mailto:admin@wuyilingwei.com
-    about: Please report security vulnerabilities here.
+    about: A good place to ask questions and find answers.
+  - name: View My Blog (Chinese) it may help you
+    url: https://blog.wuyilingwei.com
+    about: Some projects I will write in my blog.
